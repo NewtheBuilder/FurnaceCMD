@@ -1,0 +1,15 @@
+name: Furnace
+version: "0.0.1"
+author: NewTheBuilder
+main: NTB\Furnace\Main
+api: 
+  - "3.0.0"
+  - "3.0.2"
+  - "4.0.0"
+permissions:
+  Furnace:
+    description: "Main permission of plugin furnace"
+    children:
+      Furnace.use:
+        description: "Use the /furnace"
+        default: true
